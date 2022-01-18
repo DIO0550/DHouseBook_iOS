@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A701C6D2796F63300B25AA6 /* DHouseBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A701C6C2796F63300B25AA6 /* DHouseBookModel.swift */; };
 		3AD01EEC27946FB800CDE2F0 /* DHouseBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EEB27946FB800CDE2F0 /* DHouseBookApp.swift */; };
 		3AD01EEE27946FB800CDE2F0 /* DHouseBookDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EED27946FB800CDE2F0 /* DHouseBookDocument.swift */; };
 		3AD01EF027946FB800CDE2F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EEF27946FB800CDE2F0 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A701C6C2796F63300B25AA6 /* DHouseBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookModel.swift; sourceTree = "<group>"; };
 		3AD01EE827946FB800CDE2F0 /* DHouseBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHouseBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD01EEB27946FB800CDE2F0 /* DHouseBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookApp.swift; sourceTree = "<group>"; };
 		3AD01EED27946FB800CDE2F0 /* DHouseBookDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookDocument.swift; sourceTree = "<group>"; };
@@ -74,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A701C6B2796F58C00B25AA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A701C6C2796F63300B25AA6 /* DHouseBookModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3ABCFDA22795A70600CC4C47 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3AD01EEF27946FB800CDE2F0 /* ContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		3AD01EDF27946FB800CDE2F0 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +115,10 @@
 		3AD01EEA27946FB800CDE2F0 /* DHouseBook */ = {
 			isa = PBXGroup;
 			children = (
+				3A701C6B2796F58C00B25AA6 /* Model */,
+				3ABCFDA22795A70600CC4C47 /* UI */,
 				3AD01EEB27946FB800CDE2F0 /* DHouseBookApp.swift */,
 				3AD01EED27946FB800CDE2F0 /* DHouseBookDocument.swift */,
-				3AD01EEF27946FB800CDE2F0 /* ContentView.swift */,
 				3AD01EF127946FBA00CDE2F0 /* Assets.xcassets */,
 				3AD01EF627946FBA00CDE2F0 /* Info.plist */,
 				3AD01EF327946FBA00CDE2F0 /* Preview Content */,
@@ -262,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A701C6D2796F63300B25AA6 /* DHouseBookModel.swift in Sources */,
 				3AD01EEC27946FB800CDE2F0 /* DHouseBookApp.swift in Sources */,
 				3AD01EEE27946FB800CDE2F0 /* DHouseBookDocument.swift in Sources */,
 				3AD01EF027946FB800CDE2F0 /* ContentView.swift in Sources */,
@@ -445,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -477,7 +497,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

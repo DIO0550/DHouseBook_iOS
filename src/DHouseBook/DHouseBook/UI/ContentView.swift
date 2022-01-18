@@ -11,7 +11,6 @@ struct ContentView: View {
     @Binding var document: DHouseBookDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
     }
 }
 
