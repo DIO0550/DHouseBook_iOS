@@ -19,20 +19,25 @@ final class DHouseBookDocument: ReferenceFileDocument {
     
     static var readableContentTypes: [UTType] { [.houseBookDocument] }
     
-    init() {
-        
-    }
+    @Published var houseBook: DHouseBook;
+    
     
     init(configuration: ReadConfiguration) throws {
-        
+        guard let data = configuration.file.regularFileContents
+        else {
+            throw NSError.init(domain: "error init", code: -1, userInfo: nil)
+        }
+        self.houseBook = try JSONDecoder().decode(DHouseBook.self, from: data);
     }
     
     func snapshot(contentType: UTType) throws -> DHouseBook {
-        
+        houseBook
     }
     
     func fileWrapper(snapshot: DHouseBook, configuration: WriteConfiguration) throws -> FileWrapper {
-        
+        let data = try JSONEncoder().encode(snapshot)
+        let fileWrapper = FileWrapper(regularFileWithContents: data)
+        return fileWrapper
     }
     
 

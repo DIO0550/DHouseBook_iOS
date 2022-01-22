@@ -26,3 +26,9 @@ extension PurchaseItem: Equatable {
         lhs.id == rhs.id
     }
 }
+
+extension DHouseBook {
+    mutating func addPurchasedItem(item: PurchaseItem) {
+        items.append(item)
+    }
+}
