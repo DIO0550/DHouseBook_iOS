@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct DHouseBookApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument:{ DHouseBook()}) { configration in
+        DocumentGroup(newDocument:{ DHouseBookDocument()}) { configration in
             ContentView();
         }
     }

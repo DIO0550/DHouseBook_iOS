@@ -21,6 +21,9 @@ final class DHouseBookDocument: ReferenceFileDocument {
     
     @Published var houseBook: DHouseBook;
     
+    init() {
+        houseBook = .initializeList;
+    }
     
     init(configuration: ReadConfiguration) throws {
         guard let data = configuration.file.regularFileContents

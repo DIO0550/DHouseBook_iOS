@@ -9,21 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
 
-    
-    @Binding var document: DHouseBookDocument
-
-    @Environment(\.undoManager) var undoManager
-    
-    @State private var selection = Set<UUID>()
+    @EnvironmentObject var document: DHouseBookDocument
     
     var body: some View {
-        List(selection: $selection, content: ForEach($document.houseBook.items))
+        List {
+            ForEach($document.houseBook.items) { $item in
+                Text($item.wrappedValue.name)
+            }
+        }
     }
-
 }
 
 struct ContentView_Previews: PreviewProvider {
+
     static var previews: some View {
-        ContentView(document: .constant(DHouseBookDocument()))
+        ContentView().environmentObject(DHouseBookDocument())
     }
 }

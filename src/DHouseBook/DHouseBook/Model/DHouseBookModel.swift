@@ -28,6 +28,10 @@ extension PurchaseItem: Equatable {
 }
 
 extension DHouseBook {
+    static let initializeList = DHouseBook(items: [])
+}
+
+extension DHouseBook {
     mutating func addPurchasedItem(item: PurchaseItem) {
         items.append(item)
     }
