@@ -15,8 +15,6 @@
 			<array>
 				<string>dio.housebook.doc</string>
 			</array>
-			<key>NSUbiquitousDocumentUserActivityType</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER).example-document</string>
 		</dict>
 	</array>
 	<key>UTExportedTypeDeclarations</key>
@@ -24,8 +22,8 @@
 		<dict>
 			<key>UTTypeConformsTo</key>
 			<array>
-				<string>com.apple.package</string>
-				<string>public.composite-content</string>
+				<string>public.data</string>
+				<string>public.content</string>
 			</array>
 			<key>UTTypeDescription</key>
 			<string>HouseBook</string>
@@ -43,27 +41,6 @@
 		</dict>
 	</array>
 	<key>UTImportedTypeDeclarations</key>
-	<array>
-		<dict>
-			<key>UTTypeConformsTo</key>
-			<array>
-				<string>com.apple.package</string>
-				<string>public.composite-content</string>
-			</array>
-			<key>UTTypeDescription</key>
-			<string>HouseBook</string>
-			<key>UTTypeIconFiles</key>
-			<array/>
-			<key>UTTypeIdentifier</key>
-			<string>dio.housebook.doc</string>
-			<key>UTTypeTagSpecification</key>
-			<dict>
-				<key>public.filename-extension</key>
-				<array>
-					<string>dhb</string>
-				</array>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 </dict>
 </plist>
