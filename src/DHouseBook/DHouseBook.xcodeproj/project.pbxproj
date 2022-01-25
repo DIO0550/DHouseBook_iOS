@@ -16,6 +16,7 @@
 		3AD01F0027946FBA00CDE2F0 /* DHouseBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EFF27946FBA00CDE2F0 /* DHouseBookTests.swift */; };
 		3AD01F0A27946FBA00CDE2F0 /* DHouseBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01F0927946FBA00CDE2F0 /* DHouseBookUITests.swift */; };
 		3AD01F0C27946FBA00CDE2F0 /* DHouseBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01F0B27946FBA00CDE2F0 /* DHouseBookUITestsLaunchTests.swift */; };
+		3AFEA72327A03B8100416F39 /* PurchaseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFEA72227A03B8100416F39 /* PurchaseItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3AD01F0527946FBA00CDE2F0 /* DHouseBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHouseBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD01F0927946FBA00CDE2F0 /* DHouseBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookUITests.swift; sourceTree = "<group>"; };
 		3AD01F0B27946FBA00CDE2F0 /* DHouseBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AFEA72227A03B8100416F39 /* PurchaseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3AD01EEF27946FB800CDE2F0 /* ContentView.swift */,
+				3AFEA72227A03B8100416F39 /* PurchaseItemView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				3A701C6D2796F63300B25AA6 /* DHouseBookModel.swift in Sources */,
 				3AD01EEC27946FB800CDE2F0 /* DHouseBookApp.swift in Sources */,
+				3AFEA72327A03B8100416F39 /* PurchaseItemView.swift in Sources */,
 				3AD01EEE27946FB800CDE2F0 /* DHouseBookDocument.swift in Sources */,
 				3AD01EF027946FB800CDE2F0 /* ContentView.swift in Sources */,
 			);
