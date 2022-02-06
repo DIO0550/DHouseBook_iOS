@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3A701C6D2796F63300B25AA6 /* DHouseBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A701C6C2796F63300B25AA6 /* DHouseBookModel.swift */; };
+		3AA6EEB027AFFF34005DEFD7 /* AddPurchasedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6EEAF27AFFF34005DEFD7 /* AddPurchasedItemView.swift */; };
 		3AD01EEC27946FB800CDE2F0 /* DHouseBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EEB27946FB800CDE2F0 /* DHouseBookApp.swift */; };
 		3AD01EEE27946FB800CDE2F0 /* DHouseBookDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EED27946FB800CDE2F0 /* DHouseBookDocument.swift */; };
-		3AD01EF027946FB800CDE2F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EEF27946FB800CDE2F0 /* ContentView.swift */; };
+		3AD01EF027946FB800CDE2F0 /* PurchasedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EEF27946FB800CDE2F0 /* PurchasedListView.swift */; };
 		3AD01EF227946FBA00CDE2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD01EF127946FBA00CDE2F0 /* Assets.xcassets */; };
 		3AD01EF527946FBA00CDE2F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AD01EF427946FBA00CDE2F0 /* Preview Assets.xcassets */; };
 		3AD01F0027946FBA00CDE2F0 /* DHouseBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD01EFF27946FBA00CDE2F0 /* DHouseBookTests.swift */; };
@@ -38,10 +39,11 @@
 
 /* Begin PBXFileReference section */
 		3A701C6C2796F63300B25AA6 /* DHouseBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookModel.swift; sourceTree = "<group>"; };
+		3AA6EEAF27AFFF34005DEFD7 /* AddPurchasedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPurchasedItemView.swift; sourceTree = "<group>"; };
 		3AD01EE827946FB800CDE2F0 /* DHouseBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHouseBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD01EEB27946FB800CDE2F0 /* DHouseBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookApp.swift; sourceTree = "<group>"; };
 		3AD01EED27946FB800CDE2F0 /* DHouseBookDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHouseBookDocument.swift; sourceTree = "<group>"; };
-		3AD01EEF27946FB800CDE2F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AD01EEF27946FB800CDE2F0 /* PurchasedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasedListView.swift; sourceTree = "<group>"; };
 		3AD01EF127946FBA00CDE2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AD01EF427946FBA00CDE2F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AD01EF627946FBA00CDE2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,8 +91,9 @@
 		3ABCFDA22795A70600CC4C47 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				3AD01EEF27946FB800CDE2F0 /* ContentView.swift */,
+				3AD01EEF27946FB800CDE2F0 /* PurchasedListView.swift */,
 				3AFEA72227A03B8100416F39 /* PurchaseItemView.swift */,
+				3AA6EEAF27AFFF34005DEFD7 /* AddPurchasedItemView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -288,7 +291,8 @@
 				3AD01EEC27946FB800CDE2F0 /* DHouseBookApp.swift in Sources */,
 				3AFEA72327A03B8100416F39 /* PurchaseItemView.swift in Sources */,
 				3AD01EEE27946FB800CDE2F0 /* DHouseBookDocument.swift in Sources */,
-				3AD01EF027946FB800CDE2F0 /* ContentView.swift in Sources */,
+				3AD01EF027946FB800CDE2F0 /* PurchasedListView.swift in Sources */,
+				3AA6EEB027AFFF34005DEFD7 /* AddPurchasedItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

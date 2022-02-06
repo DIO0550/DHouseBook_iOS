@@ -11,7 +11,7 @@ import SwiftUI
 struct DHouseBookApp: App {
     var body: some Scene {
         DocumentGroup(newDocument:{ DHouseBookDocument()}) { configration in
-            ContentView();
+            PurchasedListView();
         }
     }
 }
