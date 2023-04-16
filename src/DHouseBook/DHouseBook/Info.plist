@@ -41,6 +41,27 @@
 		</dict>
 	</array>
 	<key>UTImportedTypeDeclarations</key>
-	<array/>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>HouseBook</string>
+			<key>UTTypeIconFiles</key>
+			<array/>
+			<key>UTTypeIdentifier</key>
+			<string>dio.housebook.doc</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>dhb</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

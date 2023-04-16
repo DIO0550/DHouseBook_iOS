@@ -8,23 +8,21 @@
 import SwiftUI
 
 struct PurchaseItemView: View {
-    @Binding var item: PurchaseItem;
+    @Binding var item: PurchaseItem
     var body: some View {
         HStack {
             TextField("", text: $item.name)
             TextField("", value: $item.price, formatter: NumberFormatter())
             TextField("", text: $item.type)
+            DatePicker("", selection: $item.purchasedDate, displayedComponents: [.date])
         }
     }
 }
 
 struct PurchaseItemView_Previews: PreviewProvider {
-    @State static var demoItem: PurchaseItem = PurchaseItem.init(id: UUID(), name: "買ったもの", price: 19000, type: "お菓子", purchasedDate: Date())
-    
+    @State static var demoItem: PurchaseItem = PurchaseItem(id: UUID(), name: "買ったもの", price: 19000, type: "お菓子", purchasedDate: Date())
+
     static var previews: some View {
-
-
-        
         PurchaseItemView(item: $demoItem)
     }
 }

@@ -9,10 +9,10 @@ import Foundation
 
 struct PurchaseItem: Identifiable, Codable {
     var id = UUID()
-    var name: String
-    var price: Int
-    var type: String
-    var purchasedDate: Date
+    var name: String = ""
+    var price: Int = 0
+    var type: String = ""
+    var purchasedDate: Date = Date()
 }
 
 struct DHouseBook: Identifiable, Codable {
@@ -21,8 +21,7 @@ struct DHouseBook: Identifiable, Codable {
 }
 
 extension PurchaseItem: Equatable {
-    
-    static func ==(lhs: PurchaseItem, rhs: PurchaseItem) -> Bool {
+    static func == (lhs: PurchaseItem, rhs: PurchaseItem) -> Bool {
         lhs.id == rhs.id
     }
 }
@@ -32,7 +31,8 @@ extension DHouseBook {
 }
 
 extension DHouseBook {
-    mutating func addPurchasedItem(item: PurchaseItem) {
-        items.append(item)
+    mutating func addNewItem() {
+        let newItem = PurchaseItem()
+        items.append(newItem)
     }
 }
